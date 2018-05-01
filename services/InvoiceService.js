@@ -10,8 +10,10 @@ var invoices = [];
 module.exports.createInvoice = function (req, res) {
     var data =  req.body.products;
     invoices.push(data);
-    console.log("Body " + req.body);
-    console.log("Invoices" + invoices);
+    console.log("Body ");
+    console.log(req.body);
+    console.log("Invoices");
+    console.log(invoices);
 
 
 
