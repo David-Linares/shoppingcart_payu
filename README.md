@@ -1,12 +1,8 @@
-# felipe-diaz-back
-felipe-diaz-back
+Hacer la restauración de la base de datos con el siguiente comando:
 
-Cube Sum Range Query webapp problem for Rappi interview process
+mongorestore --drop -d shopping_cart dump/shopping_cart/
 
----
-run the project using
-```javascript
+Ejecutar los siguientes comandos
+
 npm install
 npm start
-```
----
